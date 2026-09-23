@@ -15,6 +15,10 @@ This deployment repository contains only the application, its frozen model
 coefficients, and its dependency declaration. It does not contain patient-level
 training or validation data.
 
-The Unlikely / Likely word uses the model's 50% classification cutoff. The
+The Unlikely / Likely word uses the 37.3% Youden cutoff. The
 output is for research use and is not an established, calibrated absolute
 clinical risk estimate.
+
+A2MG is glycated peptide GEAFTLK(g)ATVLNYLPK from alpha-2-macroglobulin;
+APOB is glycated peptide K(g)QHLFVK from apolipoprotein B-100. Enter peptide
+assay outputs rather than routine serum protein concentrations.
